@@ -1,0 +1,13 @@
+[
+{"ts":"2026-01-10T10:00:01Z","agent":"ubuntu-victim","src_ip":"192.168.21.142","target":"192.168.21.144","rule_id":"5710","rule_desc":"sshd: Attempt to login using a non-existent user","level":5,"mitre":null,"category":"SSH Authentication","exp":1},
+{"ts":"2026-01-10T10:00:05Z","agent":"ubuntu-victim","src_ip":"192.168.21.142","target":"192.168.21.144","rule_id":"2502","rule_desc":"syslog: User missed the password more than one time","level":10,"mitre":null,"category":"SSH Authentication","exp":1},
+{"ts":"2026-01-10T10:00:30Z","agent":"ubuntu-victim","src_ip":"192.168.21.142","target":"192.168.21.144","rule_id":"100100","rule_desc":"Custom: SSH brute force (5 failures in 60s from same source IP)","level":10,"mitre":"T1110","category":"SSH Brute Force","exp":1},
+{"ts":"2026-01-11T09:00:00Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"554","rule_desc":"File added to the system (/home/ubuntu/fim-lab)","level":5,"mitre":null,"category":"File Integrity","exp":2},
+{"ts":"2026-01-11T09:02:00Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"550","rule_desc":"Integrity checksum changed (/home/ubuntu/fim-lab)","level":7,"mitre":null,"category":"File Integrity","exp":2},
+{"ts":"2026-01-11T09:04:00Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"553","rule_desc":"File deleted (/home/ubuntu/fim-lab)","level":7,"mitre":null,"category":"File Integrity","exp":2},
+{"ts":"2026-01-13T11:00:00Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"5901","rule_desc":"New group added to the system (hydratest)","level":8,"mitre":null,"category":"Account Management","exp":4},
+{"ts":"2026-01-13T11:00:02Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"5902","rule_desc":"New user added to the system (hydratest)","level":8,"mitre":null,"category":"Account Management","exp":4},
+{"ts":"2026-01-13T11:00:05Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"5904","rule_desc":"Information from the user was changed (hydratest)","level":8,"mitre":null,"category":"Account Management","exp":4},
+{"ts":"2026-01-13T11:00:09Z","agent":"ubuntu-victim","src_ip":null,"target":"192.168.21.144","rule_id":"5555","rule_desc":"PAM: User changed password (hydratest)","level":3,"mitre":null,"category":"Account Management","exp":4},
+{"ts":"2026-01-14T14:00:00Z","agent":"windows-agent","src_ip":null,"target":"192.168.21.1","rule_id":"60122","rule_desc":"Logon Failure - Unknown user or bad password (Event ID 4625)","level":5,"mitre":null,"category":"Windows Authentication","exp":5}
+]
